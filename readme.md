@@ -5,4 +5,6 @@
 - I was considering using the Dijkstra's algorithm, but it's not efficient enough to compute the shortest path between two users (O(n+e) = BFS, O(e + n log n) = Dijkstra)
 - Also, DFS wasn't an option because it's not a graph search algorithm, it's a tree search algorithm and does not accept cycles
 
-- 
+- the tests are written in the file `test_shortest_chain_of_friends.py`
+- the tests are important because they show how the algorithm works and how to use it
+- they are also used to check the correctness of the algorithm and also to help reveal bugs in the algorithm
